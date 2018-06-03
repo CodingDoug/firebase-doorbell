@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hyperaware.doorbell.thing">
+
+    <uses-permission android:name="com.google.android.things.permission.USE_PERIPHERAL_IO" />
+
+    <application>
+
+        <uses-library android:name="com.google.android.things"/>
+
+    </application>
+
+</manifest>

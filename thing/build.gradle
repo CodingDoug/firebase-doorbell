@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.hyperaware.doorbell.thing"
+        minSdkVersion 27
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "fake"
+    productFlavors {
+        realThing {
+            dimension "fake"
+        }
+        fakeThing {
+            dimension "fake"
+        }
+    }
+}
+
+dependencies {
+    compileOnly 'com.google.android.things:androidthings:1.0'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    implementation "com.android.support:support-v13:$android_support_version"
+    implementation "com.android.support:appcompat-v7:$android_support_version"
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+
+    realThingImplementation 'com.google.android.things.contrib:driver-rainbowhat:0.10'
+
+    implementation "com.google.android.gms:play-services-base:$thing_play_services_version"
+    implementation "com.google.android.gms:play-services-nearby:$thing_play_services_version"
+    implementation "com.google.firebase:firebase-core:$thing_play_services_version"
+    implementation "com.google.firebase:firebase-auth:$thing_play_services_version"
+    implementation "com.google.firebase:firebase-storage:$thing_play_services_version"
+    implementation "com.google.firebase:firebase-messaging:$thing_play_services_version"
+    implementation "com.crashlytics.sdk.android:crashlytics:2.9.3"
+}
+
+apply plugin: 'com.google.gms.google-services'

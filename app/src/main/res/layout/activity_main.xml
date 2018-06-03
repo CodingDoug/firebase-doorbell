@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hyperaware.doorbell.app.activity.MainActivity"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        />
+
+    <Button
+        android:id="@+id/btn_sign_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign out"
+        />
+
+    <Button
+        android:id="@+id/btn_nearby_conns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Auth with Nearby Connections"
+        />
+
+    <Button
+        android:id="@+id/btn_nearby_messaging"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Auth with Nearby Messaging"
+        />
+
+    <Button
+        android:id="@+id/btn_rings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rings"
+        />
+
+</LinearLayout>

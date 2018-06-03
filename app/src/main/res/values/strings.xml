@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Firebase Doorbell</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="q_let_them_in">Let them in?</string>
+    <string name="answer_yes">Yes</string>
+    <string name="answer_no">No</string>
+
+    <string name="cd_guest_image">Guest image</string>
+    <string name="cd_disposition">Disposition</string>
+
+    <string name="msg_answer_ring_requires_login">Answering a ring requires that you log into this app.</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Firebase Doorbell Thing</string>
+
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+    <string name="disposition_come_in">COME ON IN!</string>
+    <string name="disposition_go_away">GO AWAY!</string>
+
+</resources>
