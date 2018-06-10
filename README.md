@@ -30,6 +30,12 @@ run correctly.  The script under `backend/scripts/config-env.sh` will help
 you get your service account file added as an env var to deploy with the
 functions.
 
+## Watch the session
+
+Recorded at Droidcon VN:
+
+[![Video of session](https://img.youtube.com/vi/F-zq8xOntEE/0.jpg)](https://www.youtube.com/watch?v=F-zq8xOntEE) 
+
 ## License
 
 The code in this project is licensed under the Apache License 2.0.
@@ -54,4 +60,4 @@ limitations under the License.
 
 This is not an officially supported Google product.
 
-[1]: https://speakerdeck.com/codingdoug/connect-your-android-things-with-firebase-devfestmn
+[1]: https://speakerdeck.com/codingdoug/connect-your-android-things-with-firebase-devfestdc
